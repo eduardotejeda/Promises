@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Promises are cool</h1>
+    <h3>A pattern for writing async code.</h3>
+    <p>
+      We call new promise function. This fuction have two parameters "resolve"
+      and "reject" are the standars names. Went you call one of those parameters
+      the promise is resolve, eather by being resolve or rejected.
+    </p>
+    <h3>How to run code if this promise was rejected or resolve.</h3>
+    <p>This methods .then will run if our promise is resolve. Example:</p>
+    <p>willGetYouADog.then(() => { console.log("YAY WE GOT A DOG!!!") })</p>
+    <p>This methods .catch will run if our promise is rejected. Example:</p>
+    <p>willGetYouADog.catch(() => { console.log("NO DOG!!!") });</p>
+    <script src="app.js"></script>
+  </body>
+</html>
